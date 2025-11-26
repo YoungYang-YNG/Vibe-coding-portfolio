@@ -1,0 +1,25 @@
+{
+  "name": "vibe-coding-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungYang-YNG/Vibe-coding-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/YoungYang-YNG/Vibe-coding-portfolio/issues"
+  },
+  "homepage": "https://github.com/YoungYang-YNG/Vibe-coding-portfolio#readme",
+  "devDependencies": {
+    "vite": "^7.2.4"
+  }
+}

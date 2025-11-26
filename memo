@@ -1,0 +1,27 @@
+터미널에서해도 되고 파워쉘에서해도 됨
+# 해당 폴더로 이동
+cd "폴더위치"
+
+# 위치 확인
+git status
+
+# 최신 받기
+git pull
+
+# 변경 올리기
+git add .
+git commit -m "작업 내용"
+git push
+
+
+# 최초 생성(윈도우)
+git checkout -b feat/my-task
+git add . && git commit -m "작업"
+git push -u origin feat/my-task
+
+# 이어받기(맥)
+git checkout feat/my-task      # 없으면 자동 생성될 수도 있고,
+# 또는
+git fetch origin
+git checkout -t origin/feat/my-task
+git pull
